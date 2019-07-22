@@ -141,7 +141,7 @@ then returns it to the application. After the application finishes
 processing the message (or stores it reliably for future processing), it
 completes the second stage of the receive process by calling **Delete**
 on the received message. When Service Bus sees the **Delete** call, it
-marks the message as being consumed and remove it from the queue.
+marks the message as being consumed and removes it from the queue.
 
 The following example demonstrates how messages can be received and
 processed using **PeekLock** mode (not the default mode). The example
